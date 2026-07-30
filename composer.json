@@ -14,5 +14,8 @@
     "files": [
       "src/Helpers/form.php"
     ]
+  },
+  "scripts": {
+    "post-install-cmd": "node .github/init.js"
   }
 }
